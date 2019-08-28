@@ -1,9 +1,4 @@
-﻿# Host: localhost  (Version 5.7.24)
-# Date: 2019-08-28 20:50:30
-# Generator: MySQL-Front 6.1  (Build 1.26)
-
-
-#
+﻿#
 # View "channel_helper_library_mission"
 #
 

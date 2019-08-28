@@ -1,9 +1,4 @@
-﻿# Host: localhost  (Version 5.7.24)
-# Date: 2019-08-28 20:52:05
-# Generator: MySQL-Front 6.1  (Build 1.26)
-
-
-#
+﻿#
 # Structure for table "library_achievement"
 #
 

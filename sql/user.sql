@@ -1,9 +1,4 @@
-﻿# Host: localhost  (Version 5.7.24)
-# Date: 2019-08-28 20:51:47
-# Generator: MySQL-Front 6.1  (Build 1.26)
-
-
-#
+﻿#
 # Structure for table "user"
 #
 
