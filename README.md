@@ -3,14 +3,14 @@ Laravel Firebase webservice to provide data for private Game-Dashboard
 
 ## Important
 
-> Please ensure to follow order when generating mysql table using
-> provided files below:
+> Please ensure to follow order below when generating mysql table using
+> provided sql files in sql folder:
 
- 1. basic.sql
- 2. user.sql
- 3. library.sql
- 4. mutation.sql
- 5. view.sql 
+ 1. basic.sql (run first)
+ 2. user.sql (run second)
+ 3. library.sql (run third)
+ 4. mutation.sql (run fourth)
+ 5. view.sql (run fifth)
 
 > to verified user, empty value at field: verification in user table to corresponded user
 
