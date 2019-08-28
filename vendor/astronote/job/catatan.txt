@@ -1,0 +1,16 @@
+pastikan penggunaan --tries=1
+$ php artisan queue:listen --tries=1
+$ php artisan queue:listen --tries=1 --timeout=0 & (forever mode, event xampp closed)
+
+jika --tries = 0 maka failed_jobs tidak akan berjalan
+jika --tries > 1 maka akan mengulang sebanyak --tries task yang sama
+
+
+$ php artisan queue:listen --queue=high,medium,low,default --tries=1 --timeout=0 &
+kode ini: --queue=high,medium,low,default merujuk pada connection yang digunakan di config/queue.php untuk mengatur priority, sesuai urutan nama yang dipasang di --queue=...,...,...
+
+$ php artisan queue:listen --queue=auth,activity,email --tries=1 --timeout=0 &
+
+# MAKE ARTISAN
+
+$ php artisan make:command AllTask --command="fire:all"
